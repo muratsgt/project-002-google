@@ -1,31 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div id="topleft">
-        <a href="#">About</a>
-        <a href="#">Store</a>
+
+    <div class="container">
+        <div id="top">
+            <div id="topleft">
+                <a class="topLink" href="#">About</a>
+                <a class="topLink" href="#">Store</a>
+            </div>
+
+            <div id="topright">
+                <a class="topLink" href="#">Gmail</a>
+                <a class="topLink" href="#">Images</a>
+                <a class="topLink" href="#"><img src="/images/appicon.png" alt="menu"></a>
+                <a class="topLink" href="#"><span id="signin">Sign In</span></a>
+            </div>
+        </div>
+
+        <div class="search">
+            <div><img src="/images/googlelogo.png" alt="google"></div>
+            <div> <input type="search" name="" id=""> </div>
+            <div id="buttons">
+                <input class="button" type="button" value="Google Search">
+                <input class="button" type="button" value="I'm Feeling Lucky">
+            </div>
+            <div>Other Languages you can use Google: <a  href="http://">English</a></div>
+        </div>
+
+        <footer>
+            <div>Turkey</div>
+            <div id="lastFooter">
+                <div id="footLeft">
+                    <span class="footLink">Advertising</span>
+                    <span class="footLink">Business</span>
+                    <span class="footLink">How Search Works</span>
+                </div>
+                <div id="footRight">
+                    <span class="footLink">Privacy</span>
+                    <span class="footLink">Terms</span>
+                    <span class="footLink">Settings</span>
+                </div>
+            </div>
+        </footer>
     </div>
-
-    <div id="topright">
-        <a href="#">Gmail</a> 
-        <a href="#">Images</a>
-        <a href="#"><img src="" alt="menu"></a>
-        <a href="#"><span id="signin">Sign In</span></a>
-    </div>
-
-    <div class="saerch">
-        <div><img src="" alt="google"></div>
-        <div> <input type="search" name="" id=""> </div>
-
-    </div>
-
-    
-    
 </body>
+
 </html>
