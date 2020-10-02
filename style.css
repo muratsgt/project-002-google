@@ -23,10 +23,10 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px;
+    padding: 8px;
     align-items: center;
     color: #999999;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 .topLink{
@@ -56,49 +56,65 @@ a{
 }
 
 .button{
+    box-sizing: content-box;    
     margin: 15px 5px;
     padding: 10px 15px;
-    border: none;
+    border: 1px solid white;
     color: #777777;
     border-radius: 5px;
     font-size: 1em;
 }
 
-.button:active{
-    
+.button:focus{
+    border: none;
+}
+
+.button:hover{
+    border: 1px solid #bbbbbb;
 }
 
 .search{
     align-self: center;
     text-align: center;
     font-size: 0.8em;
+    transform: translateY(-10vh);
 }
 
 #searchBox{
-    height: 3em;
-    width: 400px;
+    height: 3.5em;
+    width: 35vw;
     border-radius: 20px;
-    border: 1px #888888 solid;
-    margin: 20px 10px 10px 10px;
+    border: 1px #cccccc solid;
+    margin: 30px 10px 20px 10px;
+}
+
+#searchBox:focus{
+    border: none;
+}
+
+input:focus{
+    border: none;
 }
 
 footer{
     background-color: #efefef;
     color: #777777;
-    font-size: 0.8em;
-    padding: 10px;
-
+    font-size: 0.9em;
+    padding: 7px;
 }
 
 #footUp{
-    padding: 10px;
+    padding: 7px;
+    align-content: center;
 }
 
 .footLink{
-    padding: 10px;
+    padding: 7px;
 }
 
 #lastFooter{
     display: flex;
     justify-content: space-between;
+    align-content: center;
+    border-top: 1px solid #dddddd;
 }
